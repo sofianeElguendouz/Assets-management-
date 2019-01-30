@@ -248,7 +248,7 @@
         </record>
 
         <record id="action_management_assets" model="ir.actions.act_window">
-            <field name="name">Gestion</field>
+            <field name="name"></field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">asset.asset</field>
             <field name="view_type">form</field>
@@ -334,7 +334,7 @@
         </record>
 
         <record id="action_asset_state" model="ir.actions.act_window">
-            <field name="name">Etat des immobilisations</field>
+            <field name="name">Asset States</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">asset.state</field>
             <field name="view_type">form</field>
@@ -361,7 +361,7 @@
         </record>
 
         <record id="action_asset_category" model="ir.actions.act_window">
-            <field name="name">Asset Tags</field>
+            <field name="name">Tags</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">asset.category</field>
             <field name="view_type">form</field>
